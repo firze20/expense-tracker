@@ -1,7 +1,15 @@
+import Transactions from "../features/transactions/Transactions";
+import Budgets from "../features/budgets/Budgets";
+import React from "react";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hey</h1>
+      <header className="App-header">
+        <h1>Expense Tracker</h1>
+        <Budgets />
+        <Transactions />
+      </header>
     </div>
   );
 }
